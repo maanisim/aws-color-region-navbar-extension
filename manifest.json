@@ -1,9 +1,9 @@
 {
 	"name": "AWS Navbar Region Color",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "Change AWS's navbar color depending on the region",
-	"manifest_version": 2,
-	"browser_action": {
+	"manifest_version": 3,
+	"action": {
 		"default_title": "Options",
 		"default_popup": "popup.html"
 	},
@@ -11,7 +11,9 @@
 		"128": "icon.png"
 	},
 	"permissions": [
-		"storage",
+		"storage"
+	],
+	"host_permissions": [
 		"*://*.console.aws.amazon.com/*"
 	],
 	"content_scripts": [

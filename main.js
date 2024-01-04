@@ -21,7 +21,12 @@ const defaultColor = {
     'São Paulo': '#b2977b'
 }
 
+
+
+setTimeout(() => {
 const region = document.querySelector('[data-testid="awsc-nav-regions-menu-button"]>span').innerText;
+console.log(region);
+
 chrome.storage.local.get(region, (results)=>{
     let color = results[region];
     if(color===undefined){
@@ -30,5 +35,7 @@ chrome.storage.local.get(region, (results)=>{
     if(color===undefined){
         return;
     }
-    document.querySelector("#awsc-navigation-container>div").style.backgroundColor=color;
+    document.querySelector("#awsc-top-level-nav").style.backgroundColor=color;
 })
+
+}, 3000);
