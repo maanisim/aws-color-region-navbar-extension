@@ -1,6 +1,6 @@
 const defaultColor = {
-    'N. Virginia': '#e6194b',
-    Ohio: '#3cb44b',
+    'N. Virginia': '#3cb44b',
+    Ohio: '#e6194b',
     'N. California': '#e58e00',
     Oregon: '#4363d8',
     'Cape Town': '#16ab3e',

@@ -52,4 +52,6 @@ MIT
 # Updates in my fork (u/thehandsomezebra):
 - This should work with the latest ribbon header (Jan 2024).
 - There's a sleep function to avoid nulls due to load times.
-- Tested with Chrome only at this time.. but I think it should just work with ff.
+- Added a starter block of code that's commented out at the bottom... If you want to modify and put more color-coding per-account. That's all DIY so fork and modify to your heart's content.
+- I also swapped the original defaults for US East 1 vs 2.. idk, because I felt like it.
+- Tested with Chrome only at this time.. but I think it should just work with firefox.

@@ -1,11 +1,11 @@
 {
    "N. Virginia": {
       "code": "us-east-1",
-      "default": "#e6194b"
+      "default": "#3cb44b"
    },
    "Ohio": {
       "code": "us-east-2",
-      "default": "#3cb44b"
+      "default": "#e6194b"
    },
    "N. California": {
       "code": "us-west-1",
