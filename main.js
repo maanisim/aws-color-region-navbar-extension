@@ -36,6 +36,16 @@ chrome.storage.local.get(region, (results)=>{
         return;
     }
     document.querySelector("#awsc-top-level-nav").style.backgroundColor=color;
+
+// Feel free to uncomment and modify the code below to change the color of other elements based on the acct number... 
+// It's just a starter, so you'll have to modify it to work for your use case.. DIY other methods if you want.
+
+// const accountNumber = document.getElementById("menu--account").children[0].children[0].children[0].children[1].innerText.replace(/-/g, "");
+// if (accountNumber=="123456789012"){
+//     document.querySelector('[aria-controls="menu--account"]').style.backgroundColor="#FFA7C3";
+// }
+
+
 })
 
 }, 3000);

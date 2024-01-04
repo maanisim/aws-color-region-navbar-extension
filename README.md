@@ -49,7 +49,7 @@ MIT
 - Thanks to u/Geeno2 for coming up with the idea and building it.
 
 
-# Updates in my fork:
-This should work with the latest ribbon header (Jan 2024).
-There's a sleep function to avoid nulls due to load times.
-Tested with Chrome.
+# Updates in my fork (u/thehandsomezebra):
+- This should work with the latest ribbon header (Jan 2024).
+- There's a sleep function to avoid nulls due to load times.
+- Tested with Chrome only at this time.. but I think it should just work with ff.
