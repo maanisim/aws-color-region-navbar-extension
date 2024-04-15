@@ -16,31 +16,26 @@
 - [Chrome](https://chrome.google.com/webstore/detail/ofhcnghdbkacblncbjjpcdfmbknhckkb)
 
 ## Reasons for the fork
-- Other extension is not open source
 - Other extension was broken by an update on AWS' side
-- Adds new regions that were missing
-- Adds support for Firefox
-- Uses a color picker instead of asking the user to input hex
-- Other extension requires a permission that lets it access your whole browsing history, this one doesn't
-
-I believe that by making it open source it'll be possible to verify that the code doesn't do anything wrong such as exfiltrate data and if there's any further breakage people will be able to fix it by either contributing or forking it into a new version.
+- Adds new regions that were missing (including gov)
+- Fixed support for Firefox
 
 ## Philosophy
 All the extension code is kept extremely simple in order to allow anyone to contribute easily, this means:
 - Uses no transpilation tools, only basic HTML and Javascript
 - Only include minimal number of files
 - Keep code extremely simple
-
+- 
 ## Development
-On Chrome:
+On Firefox:
+1. Open the Debugging page by navigating to `about:debugging#/runtime/this-firefox`.
+2. Click on the "Load Temporary Add-on..." button and select the extension directory.
+
+On Chrome (untested, likely broken):
 1. Open the Extension Management page by navigating to `chrome://extensions`.
 2. Enable Developer Mode by clicking the toggle switch next to Developer mode.
 3. Click the LOAD UNPACKED button and select the extension directory.
 
-
-On Firefox:
-1. Open the Debugging page by navigating to `about:debugging#/runtime/this-firefox`.
-2. Click on the "Load Temporary Add-on..." button and select the extension directory.
 
 ## License
 MIT
@@ -55,3 +50,7 @@ MIT
 - Added a starter block of code that's commented out at the bottom... If you want to modify and put more color-coding per-account. That's all DIY so fork and modify to your heart's content.
 - I also swapped the original defaults for US East 1 vs 2.. idk, because I felt like it.
 - Tested with Chrome only at this time.. but I think it should just work with firefox.
+
+# Updates in my fork (u/maanisim):
+- Modified it from sleep to mutation observer
+- Added additional AWS regions (including GOV)
