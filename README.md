@@ -11,10 +11,6 @@
 <img src="https://raw.githubusercontent.com/corollari/aws-color-region-navbar-extension/master/screenshot.png">
 </p>
 
-# Install
-- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/aws-navbar-region-color/)
-- [Chrome](https://chrome.google.com/webstore/detail/ofhcnghdbkacblncbjjpcdfmbknhckkb)
-
 ## Reasons for the fork
 - Other extension was broken by an update on AWS' side
 - Adds new regions that were missing (including gov)
