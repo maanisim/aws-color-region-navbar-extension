@@ -50,3 +50,5 @@ MIT
 # Updates in my fork (u/maanisim):
 - Modified it from sleep to mutation observer
 - Added additional AWS regions (including GOV)
+- Added Flags on the poup UI
+
