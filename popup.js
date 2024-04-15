@@ -9,7 +9,7 @@ function updateColor(region) {
 
 document.querySelectorAll('input').forEach(input => {
     const cell = input.parentElement.parentElement;
-    const region = cell.firstElementChild.innerText;
+    const region = cell.children[1].innerText;
     input.addEventListener('change', updateColor(region));
     if(window.browser !== undefined){
         // On Firefox
