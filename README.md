@@ -8,7 +8,7 @@
 <h4 align="center">An OSS version of the "AWS console regions color" extension, a browser extension that changes the color of the AWS navbar depending on the region</h4>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/corollari/aws-color-region-navbar-extension/master/screenshot.png">
+<img src="./screenshot.png">
 </p>
 
 ## Reasons for the fork
@@ -44,4 +44,4 @@ MIT
 - Modified it from sleep to mutation observer as, sleep takes too long on fast connection
 - Added additional AWS regions (including GOV)
 - Added flag emojis on the pop-up UI
-
+- Revamped the Icon/added dark theme
