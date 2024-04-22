@@ -11,9 +11,39 @@
             white-space: nowrap;
         }
     </style>
+    <style>
+        /* Define styles for light mode */
+        :root {
+        --bg-color: white;
+        --text-color: black;
+        }
+    
+        /* Override styles for dark mode */
+        @media (prefers-color-scheme: dark) {
+        :root {
+            --bg-color: #3a3944 ;
+            --text-color: white;
+        }
+        }
+    
+        body {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        }
+    </style>
 </head>
-
 <body>
+    <script>
+    // Check if user prefers dark mode
+    const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    
+    // Change HTML content based on color scheme
+    if (prefersDarkMode) {
+        document.body.classList.add('dark-mode');
+    }
+    </script>
     <table>
         <tr>
             <th>Flag</th>
