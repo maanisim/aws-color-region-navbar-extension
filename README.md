@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/corollari/aws-color-region-navbar-extension/master/icon.png" width="64">
+  <img src="./icon.png" width="64">
   <br>
   AWS Navbar Region Color Extension
   <br>
