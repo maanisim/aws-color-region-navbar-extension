@@ -122,5 +122,13 @@
    "US-Gov-West": {
       "code": "us-gov-west-1",
       "default": "#483D8B"
+   },
+   "Beijing": {
+      "code": "cn-north-1",
+      "default": "#BE1619"
+   },
+   "Ningxia": {
+      "code": "cn-northwest-1",
+      "default": "#d88794"
    }
 }
