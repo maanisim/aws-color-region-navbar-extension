@@ -29,7 +29,7 @@ const defaultColor = {
     'Tel Aviv': '#000080',
     'São Paulo': '#B22222',
     'US-Gov-East': '#556B2F',
-    'US-Gov-West': '#483D8B'
+    'US-Gov-West': '#483D8B',
     'Beijing': '#BE1619',
     'Ningxia': '#d88794'
 };
